@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "explaination_length",
+        "input_style",
+        "paper_name"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\n    Explain the research topic {paper_name} with the following specifications\n    Explaination Style: {input_style}\n    Explaination Length: {explaination_length}\n    Include relavernt maths accordingly,\n    Include relavent examples \n\n    If you dont know about certain Topics then response with \"Insufficeient contens available\" instead of gusessing and producing wrong responses,\n    Ensure the summary is clear, easy and aligned with the query asked\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
