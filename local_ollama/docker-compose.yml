@@ -1,0 +1,10 @@
+services:
+    ollama:
+    image: ollama/ollama
+    ports:
+    - '11431: 11431'
+    volumes:
+    - /media/qsashish/DATA/ashish/temp
+
+volumes:
+    models:

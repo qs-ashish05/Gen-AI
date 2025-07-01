@@ -1,0 +1,5 @@
+Major companies that provode LLMs are 
+1. OpenAI
+2. Anthropic - Claude
+3. Google - gemini
+4. Huggingface - All open source LLMs
